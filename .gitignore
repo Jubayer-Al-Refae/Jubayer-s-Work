@@ -1,0 +1,13 @@
+# Ignore the entire PyCharm settings folder
+.idea/
+
+# Ignore the virtual environment (it's huge and unique to your PC)
+venv/
+env/
+
+# Ignore Python's temporary compiled files
+__pycache__/
+*.pyc
+
+# Ignore secret files (like API keys or passwords)
+.env
