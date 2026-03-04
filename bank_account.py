@@ -87,6 +87,5 @@ elif action == "D":
     acc.deposit(amount)
 else:
     print("Invalid action selected!")
-
 acc.display_balance()
 
