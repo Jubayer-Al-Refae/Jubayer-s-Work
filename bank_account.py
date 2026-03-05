@@ -69,7 +69,6 @@ class BankAccount:
     def display_balance(self):
         print(f"{self.al}'s current balance: {self.b}")
 
-
 # User input
 name = input("Enter account holder name: ")
 balance = int(input("Enter starting balance: "))
