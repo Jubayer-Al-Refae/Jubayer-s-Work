@@ -75,7 +75,7 @@ balance = int(input("Enter starting balance: "))
 pin = int(input("Set a 4-digit PIN: "))
 acc = BankAccount(name, balance, pin)
 
-# Ask for action jdfkasldfkasfas
+# Ask for action jd
 action = input("Do you want to Withdraw or Deposit? (W/D): ").strip().upper()
 
 if action == "W":
